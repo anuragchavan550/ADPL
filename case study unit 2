@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php"style="text-align:center">
+<h1>Cyber security department</h1>
+<h2>Student Information Form</h2>
+<hr>
+
+<form action="/action_page.php"style="text-align:center">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Anurag"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Chavan"><br><br>
+  <lable for="Pnumber">PRN NO:</lable><br>
+  <input type="text" id="Pnumber" value="2124UCSM1092"><br><br>
+  <h2>Studing in:</h2><br>
+  <input type="radio" id="First year" name="fav_language" value="First year">
+  <label for="First year">First year</label><br>
+  <input type="radio" id="Second year" name="fav_language" value="Second year">
+  <label for="Second year">Second year</label><br>
+  <input type="radio" id="Third year" name="fav_language" value="Third year">
+  <label for="Third year">Third year</label><br>
+  <input type="radio" id="Final year" name="fav_language" value="Final year">
+  <label for="Final year">Final year</label>
+</form> <br>
+<form action="/action_page.php"style="text-align:center">
+  <input type="submit" value="Submit">
+  <hr>
+  
+</form> 
+
+</body>
+</html>
+
+
